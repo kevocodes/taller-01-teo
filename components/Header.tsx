@@ -10,7 +10,7 @@ export default function Header() {
         </div>
         <nav>
           <ul className="flex space-x-4">
-            <li><a href="#introduccion" className="text-gray-600 hover:text-blue-600">Los compiladores</a></li>
+            <li><a href="#introduccion" className="text-gray-600 hover:text-blue-600">Introducción</a></li>
             <li><a href="#fases" className="text-gray-600 hover:text-blue-600">Fases</a></li>
             <li><a href="#ejemplos" className="text-gray-600 hover:text-blue-600">Ejemplos</a></li>
           </ul>

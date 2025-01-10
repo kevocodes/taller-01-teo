@@ -1,19 +1,19 @@
-import { Code2} from 'lucide-react'
+import { Icon } from '@iconify/react';
 
 const compilers = [
   {
     name: "GCC (GNU Compiler Collection)",
-    icon:  <Code2 className="h-12 w-12 text-blue-600 mb-4" />,
+    icon:  <Icon icon="nonicons:c-plusplus-16" className="h-12 w-12 text-blue-600 mb-4"/>,
     description: "Es un grupo de compiladores de código abierto muy popular en sistemas operativos como Unix y Linux. Soporta múltiples lenguajes de programación, incluyendo C, C++, Objective-C, Fortran, Ada, entre otros."
   },
   {
     name: "Intel C++ Compiler",
-    icon: <Code2 className="h-12 w-12 text-blue-600 mb-4" />,
+    icon: <Icon icon="file-icons:intel" className="h-12 w-12 text-blue-600 mb-4"/>,
     description: "Diseñado por Intel, este compilador está optimizado para aprovechar al máximo el rendimiento en sus plataformas. Incluye herramientas avanzadas de optimización que mejoran significativamente el desempeño de las aplicaciones en hardware Intel."
   },
   {
     name: "Java Compiler (javac)",
-    icon: <Code2 className="h-12 w-12 text-blue-600 mb-4" />,
+    icon: <Icon icon="lineicons:java" className="h-12 w-12 text-blue-600 mb-4"/>,
     description: "Es el compilador principal de Java, incluido en el kit de desarrollo de Java (JDK). Su función es transformar el código fuente de Java en bytecode, el cual puede ser ejecutado por la máquina virtual de Java (JVM)."
   },
 ]
