@@ -2,10 +2,19 @@ import { Code2} from 'lucide-react'
 
 const compilers = [
   {
-    name: "GCC",
-    fullName: "GNU Compiler Collection",
+    name: "GCC (GNU Compiler Collection)",
+    icon:  <Code2 className="h-12 w-12 text-blue-600 mb-4" />,
+    description: "Es un grupo de compiladores de código abierto muy popular en sistemas operativos como Unix y Linux. Soporta múltiples lenguajes de programación, incluyendo C, C++, Objective-C, Fortran, Ada, entre otros."
+  },
+  {
+    name: "Intel C++ Compiler",
     icon: <Code2 className="h-12 w-12 text-blue-600 mb-4" />,
-    description: "Es un conjunto de compiladores de código abierto ampliamente utilizado en sistemas operativos basados en Unix y Linux. Incluye compiladores para varios lenguajes de programación como C, C++, Objective-C, Fortran, Ada, y otros."
+    description: "Diseñado por Intel, este compilador está optimizado para aprovechar al máximo el rendimiento en sus plataformas. Incluye herramientas avanzadas de optimización que mejoran significativamente el desempeño de las aplicaciones en hardware Intel."
+  },
+  {
+    name: "Java Compiler (javac)",
+    icon: <Code2 className="h-12 w-12 text-blue-600 mb-4" />,
+    description: "Es el compilador principal de Java, incluido en el kit de desarrollo de Java (JDK). Su función es transformar el código fuente de Java en bytecode, el cual puede ser ejecutado por la máquina virtual de Java (JVM)."
   },
 ]
 
@@ -20,7 +29,6 @@ export default function CompilerExamples() {
               <div className="flex flex-col items-center mb-4">
                 {compiler.icon}
                 <h3 className="text-xl font-semibold text-gray-800 text-center">{compiler.name}</h3>
-                <h4 className="text-sm font-medium text-gray-700 mb-2 text-center">{compiler.fullName}</h4>
               </div>
               <p className="text-gray-600 text-sm">{compiler.description}</p>
             </div>
