@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Integrantes
+- Kevin Alexander Mejia Hercules 00058620
+- Kevin Jefferson Escobar Vasquez 00116120
+- Erika Andrea Paz Quinteros 00117420
 
-## Getting Started
+## Referencias
 
-First, run the development server:
+- Buenning, M. (2024, 1 de febrero). ¿Qué es un compilador?. NinjaOne. Recuperado de https://www.ninjaone.com/es/it-hub/it-service-management/que-es-un-compilador/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Pablo, J. (2023, noviembre). La compilación y su importancia. Universidad de San Carlos de Guatemala. Recuperado de https://www.researchgate.net/publication/375288512_La_compilacion_y_su_importancia
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- IONOS. (2020, marzo 24). Compilador e intérprete: definición y diferencias. IONOS. Recuperado de https://www.ionos.com/es-us/digitalguide/paginas-web/desarrollo-web/compilador-e-interprete/?srsltid=AfmBOopxIihUDtapHN0GXAWlDLQduqth2n98GPTtdC5gdwdg7Mpyf4Xu
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Cerulean, K. (2024, septiembre 26). Fases del compilador con ejemplo: proceso y pasos de compilación. Guru99. Recuperado de https://www.guru99.com/es/compiler-design-phases-of-compiler.html
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Viladrosa, R. C. (2016, mayo 2). ¿Qué hay que tener en cuenta en la optimización de código? Tecnología++.  Recuperado de https://blogs.uoc.edu/informatica/es/optimizacion-de-codigo-un-codigo-mas-eficiente/
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Universitat Jaume I. (s/f). Procesadores de lenguaje. Recuperado de https://www3.uji.es/~vjimenez/AULASVIRTUALES/PL-0910/T5-GENERACION/codigo.apun.pdf
